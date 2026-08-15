@@ -25,15 +25,28 @@
 
 let score = "33"
 
-console.log(typeof score);
-console.log(typeof (score));
+// console.log(typeof score);
+// console.log(typeof (score));
 
 let valueInNumber = Number(score)
-console.log(typeof (valueInNumber));
+// console.log(typeof (valueInNumber));
 
 // "33" => 33
 
 let isLoggedIn = 0
 
 let booeanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booeanIsLoggedIn);
+// console.log(booeanIsLoggedIn);
+
+// **********************************OPERATION*******************************************
+
+let str1 = "hello "
+let str2 = "Zaid"
+let str3 = str1 + str2
+// console.log(str3);
+
+// console.log(1 + 6 + 6 + 7 +"4");
+// console.log("");
+let gameCounter = 100
+gameCounter++;
+console.log(gameCounter)
